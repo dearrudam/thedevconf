@@ -40,12 +40,6 @@ sdk install java 21.2.0.r16-grl
 ```shell
 sdk install maven
 ```
-## Compile and install ```tdc-commons```
-
-This module constains data transfer classes (value objects) and utility classes shared across modules.
-```shell
-mvn -f tdc-commons/pom.xml
-```
 
 ## Start a MySQL database
 
@@ -131,16 +125,6 @@ Now, you'll need to import the "checkstyle.xml" file configuration at **Editor -
 ![Report](imgs/checkstyle-idea-plugin-settings-04.png)
 
 It's done! On the IntelliJ footer, you will be able to find out the ***CheckSyle*** plugin tab. There you will be able to run the code checking process (on the project or module levels or in the opened file).
-
-## Compile everything
-```
-mvn
-```
-
-*Remember to re-install the commons package and reload IDE project when entities are changed.*
-
-
-Salve TDC!!!
 
 ## Frontend
 
