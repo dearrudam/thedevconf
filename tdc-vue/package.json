@@ -11,7 +11,7 @@
     "test": "cypress run --headless"
   },
   "dependencies": {
-    "@braid/vue-formulate": "^2.5.2",
+    "@braid/vue-formulate": "^2.5.3",
     "@nuxtjs/axios": "^5.13.6",
     "bootstrap": "4.6.0",
     "bootstrap-vue": "^2.21.2",
