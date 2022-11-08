@@ -949,11 +949,6 @@
   resolved "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@cypress/mount-utils@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@cypress/mount-utils/-/mount-utils-1.0.2.tgz"
-  integrity sha512-Fn3fdTiyayHoy8Ol0RSu4MlBH2maQ2ZEXeEVKl/zHHXEQpld5HX3vdNLhK5YLij8cLynA4DxOT/nO9iEnIiOXw==
-
 "@cypress/request@^2.88.6":
   version "2.88.6"
   resolved "https://registry.npmjs.org/@cypress/request/-/request-2.88.6.tgz"
@@ -979,13 +974,10 @@
     tunnel-agent "^0.6.0"
     uuid "^8.3.2"
 
-"@cypress/vue@^2.2.3":
-  version "2.2.3"
-  resolved "https://registry.npmjs.org/@cypress/vue/-/vue-2.2.3.tgz"
-  integrity sha512-KgrUjiLVyoiU5xb5JAhsdFLDzyh7Njhm4TMuINFsoBZkt4PJptGCsMzdaI7lk1XX20NGvg8MPIFbbQi+L0L8qQ==
-  dependencies:
-    "@cypress/mount-utils" "1.0.2"
-    "@vue/test-utils" "^1.1.3"
+"@cypress/vue@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@cypress/vue/-/vue-5.0.1.tgz#38a8d39e6f0604d4092f81df41609b4a3a0ee41b"
+  integrity sha512-Sy7eh7LUJX8CCMkMp8clGQaro513WXLYeApUKaWVrPGuEgdIYPSbquHDxl77Ei3VGg9PLqwIMU291kfdwOCuLg==
 
 "@cypress/webpack-dev-server@^1.5.0":
   version "1.5.0"
@@ -1889,7 +1881,7 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vue/test-utils@^1.1.3", "@vue/test-utils@^1.2.1":
+"@vue/test-utils@^1.2.1":
   version "1.2.2"
   resolved "https://registry.npmjs.org/@vue/test-utils/-/test-utils-1.2.2.tgz"
   integrity sha512-P+yiAsszoy8z1TqXiVUnAZaJj0WGGz5fCxm4bOSI6Cpwy1+PNYwYxDv0ROAA/SUtOPppV+aD8tp/QWwxf8ROJw==
